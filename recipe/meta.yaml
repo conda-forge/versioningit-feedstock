@@ -25,8 +25,7 @@ requirements:
     - python >=3.6
     - dataclasses
     - importlib-metadata >=3.6
-    - packaging
-    - setuptools
+    - packaging >=17.1
     - tomli >=1.2,<3.0
 
 test:
