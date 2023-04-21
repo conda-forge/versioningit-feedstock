@@ -1,11 +1,11 @@
-About versioningit
-==================
+About versioningit-feedstock
+============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/versioningit-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/jwodder/versioningit
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/versioningit-feedstock/blob/main/LICENSE.txt)
 
 Summary: Versioning It with your Version In Git
 
