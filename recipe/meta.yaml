@@ -34,7 +34,7 @@ test:
     - mercurial >=5.2
     - setuptools >=42
     - pip
-    - pydantic >=1.8,<2.0
+    - pydantic >=2.0,<3.0
     - pytest >=7.0
     - pytest-cov >=3.0
     - pytest-mock >=3.0
