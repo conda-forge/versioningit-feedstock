@@ -31,6 +31,7 @@ test:
   requires:
     - python-build >=0.7.0
     - git >=2.32
+    - hatchling
     - mercurial >=5.2
     - setuptools >=42
     - pip
@@ -56,7 +57,7 @@ about:
   license_file: LICENSE
   summary: Versioning It with your Version In Git
   description: |
-    `versioningit` is yet another setuptools plugin for automatically
+    `versioningit` is yet another Python packaging plugin for automatically
     determining your package's version based on your version control
     repository's tags.  Unlike others, it allows easy customization of the
     version format and even lets you easily override the separate functions
