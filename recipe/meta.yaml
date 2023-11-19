@@ -1,5 +1,5 @@
 {% set name = "versioningit" %}
-{% set version = "2.2.1" %}
+{% set version = "2.3.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 0e58242d7abda61ae63596a5494ae9ed631ac85d8bb3cc8e176e3253ca4bcbb5
+  sha256: 1d0d71cfa3c2bc4f8dfb3d4a15c144eb8aa6a09d9da98923d410994a2ef826ea
 
 build:
   noarch: python
@@ -31,6 +31,7 @@ test:
   requires:
     - python-build >=0.7.0
     - git >=2.32
+    - hatchling
     - mercurial >=5.2
     - setuptools >=42
     - pip
@@ -56,7 +57,7 @@ about:
   license_file: LICENSE
   summary: Versioning It with your Version In Git
   description: |
-    `versioningit` is yet another setuptools plugin for automatically
+    `versioningit` is yet another Python packaging plugin for automatically
     determining your package's version based on your version control
     repository's tags.  Unlike others, it allows easy customization of the
     version format and even lets you easily override the separate functions
