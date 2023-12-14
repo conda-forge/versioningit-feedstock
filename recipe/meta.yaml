@@ -1,5 +1,5 @@
 {% set name = "versioningit" %}
-{% set version = "2.3.0" %}
+{% set version = "3.0.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 1d0d71cfa3c2bc4f8dfb3d4a15c144eb8aa6a09d9da98923d410994a2ef826ea
+  sha256: 4e3ce47a6424d850ae9e55e1b134a020e9fcbcb895338f107f2b5c51d34c9c1b
 
 build:
   noarch: python
@@ -18,9 +18,9 @@ build:
 
 requirements:
   host:
+    - hatchling
     - python >=3.7
     - pip
-    - setuptools
   run:
     - python >=3.7
     - importlib-metadata >=3.6
