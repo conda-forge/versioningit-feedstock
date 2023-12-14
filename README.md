@@ -11,7 +11,7 @@ Summary: Versioning It with your Version In Git
 
 Development: https://github.com/jwodder/versioningit
 
-`versioningit` is yet another setuptools plugin for automatically
+`versioningit` is yet another Python packaging plugin for automatically
 determining your package's version based on your version control
 repository's tags.  Unlike others, it allows easy customization of the
 version format and even lets you easily override the separate functions
