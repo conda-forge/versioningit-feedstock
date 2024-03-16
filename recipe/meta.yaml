@@ -30,6 +30,7 @@ requirements:
 test:
   requires:
     - python-build >=0.7.0
+    - editables
     - git >=2.32
     - hatchling
     - mercurial >=5.2
