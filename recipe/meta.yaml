@@ -1,5 +1,5 @@
 {% set name = "versioningit" %}
-{% set version = "3.2.0" %}
+{% set version = "3.3.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 4afb9559842d75962f9fb308898384a3b704e799240e6e89b74c2a49809af471
+  sha256: b91ad7d73e73d21220e69540f20213f2b729a1f9b35c04e9e137eaf28d2214da
 
 build:
   noarch: python
